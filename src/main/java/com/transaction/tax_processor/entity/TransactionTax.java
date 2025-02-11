@@ -32,6 +32,14 @@ public class TransactionTax {
 		this.tax = tax;
 	}
 
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
 	public Date getLastUpdate() {
 		return lastUpdate;
 	}
